@@ -1,6 +1,5 @@
 from sqlalchemy.orm import Session
 from . import models, schemas
-import bcrypt
 from passlib.context import CryptContext
 
 def get_user(db: Session, user_id: int):
